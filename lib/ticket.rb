@@ -7,9 +7,9 @@ end
 
 def ticket_prize(age)
   if
-    age <= 18
+    age <= 17
     puts "10kr please"
-  elsif age <= 65
+  elsif age <= 64
     puts "20kr please"
     else puts "15kr please"
     end
